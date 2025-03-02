@@ -315,12 +315,12 @@ echo "New square size: " . $square->getSize() . "\n";
 #### Abstract Classes vs. Interfaces:
 
 
-| Abstract Classes                        |	Interfaces |
-------------------------------------------| ------- |
-| Can have method implementations         |	Only method declarations
-| Can have properties	                    | Only constants
-| A class can extend only one abstract class	 | A class can implement multiple interfaces
-| Can enforce a base structure	           | Define a contract of capabilities
+| Abstract Classes                            | 	Interfaces                               |
+|---------------------------------------------|-------------------------------------------|
+| Can have method implementations             | 	Only method declarations                 |
+| Can have properties	                        | Only constants                            |
+| A class can extend only one abstract class	 | A class can implement multiple interfaces |
+| Can enforce a base structure	               | Define a contract of capabilities         |
 
 #### Real-world Example Combining All Concepts:
 
